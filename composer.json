@@ -1,0 +1,25 @@
+{
+    "name": "hcdisat/payment",
+    "description": "Payment transactions using paypal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector Caraballo",
+            "email": "hcdisat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "hcdisat/money": "dev-master",
+        "guzzle/guzzle": ">=3.0",
+        "symfony/http-foundation": "2.8.*|3.0.*",
+        "nesbot/carbon": "~1.20",
+        "illuminate/contracts": "5.2.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "HcDisat\\": "src"
+        }
+    }
+}
